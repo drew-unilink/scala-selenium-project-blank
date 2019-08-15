@@ -7,4 +7,6 @@ import utils.StartUpTearDown
 
 trait BasePage extends WebBrowser with Eventually with Matchers with StartUpTearDown {
 
+  val bingUrl = "https://www.bing.com/"
+
 }
